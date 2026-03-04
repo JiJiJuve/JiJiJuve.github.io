@@ -11,13 +11,14 @@ Ce portfolio regroupe une sélection de TP et projets réalisés en formation AI
 - Formation : AIS – Administrateur d’Infrastructures Sécurisées  
 - Centres d’intérêt : réseaux Cisco, pfSense, VPN, bastions, virtualisation (Proxmox), cyber, scripts Python  
 
-[GitHub](https://github.com/JiJiJuve) · [LinkedIn](TON_LIEN_LINKEDIN) · Contact : TON_EMAIL_PRO
+[GitHub](https://github.com/JiJiJuve) · [LinkedIn](www.linkedin.com/in/jimmy-paulin) · Contact : jimmy.paulin@outlook.fr
 
 ---
 
 ## 1. Gros projets réseau & sécurité (Cisco)
 
 ### Infrastructure réseau multi‑sites haute disponibilité (Cisco Packet Tracer)
+
 
 | Projet | Ce que j’ai fait | Lien |
 |--------|-------------------|------|
@@ -26,6 +27,7 @@ Ce portfolio regroupe une sélection de TP et projets réalisés en formation AI
 ---
 
 ## 2. Virtualisation & pfSense
+
 
 | Projet | Ce que j’ai fait | Lien |
 |--------|-------------------|------|
@@ -36,6 +38,7 @@ Ce portfolio regroupe une sélection de TP et projets réalisés en formation AI
 
 ## 3. Bastions d’administration & accès sécurisé
 
+
 | Projet | Ce que j’ai fait | Lien |
 |--------|-------------------|------|
 | Bastion d’administration Zero Trust avec Teleport | Étude comparative Teleport vs Apache Guacamole (sécurité, audit, types d’accès, déploiement), déploiement d’un bastion Teleport sur Debian, modèle Zero Trust avec certificats éphémères et MFA, gestion de ressources (serveurs) dans le bastion, connexions SSH depuis une VM cliente, traçabilité avancée des sessions (audit, relecture). | [TP Teleport](https://github.com/JiJiJuve/Simplon_Formation_AIS/blob/main/Bastion.md) |
@@ -45,12 +48,12 @@ Ce portfolio regroupe une sélection de TP et projets réalisés en formation AI
 
 ## 4. Lab réel sur matériel Cisco
 
+
 | Projet | Ce que j’ai fait | Lien |
 |--------|-------------------|------|
-| Mise à jour IOS sur switch Cisco C2960X-24PS-L | Connexion console avec PuTTY, installation et configuration d’un serveur TFTP, téléchargement de la dernière image IOS, configuration d’une IP de management, tests de connectivité (ping PC / switch / serveur TFTP), transfert de la nouvelle image, configuration du boot, vérification de la version active, suppression de l’ancienne image et sauvegarde de la configuration. | Post LinkedIn (mise à jour du switch) |
-| Récupération d’accès et config de base d’un routeur Cisco C892FSP-K9 | Passage en mode ROMMON pour récupération de mot de passe (confreg 0x2142 / 0x2102), boot sans config, récupération de la startup-config, modification des mots de passe, sauvegarde. Mise en place de la configuration de base : hostname, mots de passe console/VTY/enable secret, chiffrement des mots de passe, vérifications (show version, show interfaces, etc.). | Posts LinkedIn (ROMMON + config de base + lab réel routeur) |
+| Mise à jour IOS sur switch Cisco C2960X-24PS-L | Connexion console avec PuTTY, installation et configuration d’un serveur TFTP, téléchargement de la dernière image IOS, configuration d’une IP de management, tests de connectivité (ping PC / switch / serveur TFTP), transfert de la nouvelle image, configuration du boot, vérification de la version active, suppression de l’ancienne image et sauvegarde de la configuration. | Post LinkedIn ([mise à jour du switch](https://www.linkedin.com/posts/jimmy-paulin_cisco-switching-raezseau-activity-7348729828654698498-KFgT?utm_source=share&utm_medium=member_desktop&rcm=ACoAABJRN38BwgfdQzmeNArcca1JDOTIu-fgpXU)) |
+| Récupération d’accès et config de base d’un routeur Cisco C892FSP-K9 | Passage en mode ROMMON pour récupération de mot de passe (confreg 0x2142 / 0x2102), boot sans config, récupération de la startup-config, modification des mots de passe, sauvegarde. Mise en place de la configuration de base : hostname, mots de passe console/VTY/enable secret, chiffrement des mots de passe, vérifications (show version, show interfaces, etc.). | Posts LinkedIn ([ROMMON + config de base + lab réel routeur](https://www.linkedin.com/posts/jimmy-paulin_cisco-networkengineer-itlab-activity-7345837899201835008-Ttxm?utm_source=share&utm_medium=member_desktop&rcm=ACoAABJRN38BwgfdQzmeNArcca1JDOTIu-fgpXU)) |
 
-*(Tu pourras remplacer “Post(s) LinkedIn …” par les URLs exactes de tes posts.)*
 
 ---
 
