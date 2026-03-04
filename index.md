@@ -1,13 +1,10 @@
+# Portfolio Jimmy PAULIN - Administrateur d’Infrastructures Sécurisées
 ---
-Portfolio Jimmy PAULIN - Administrateur d’Infrastructures Sécurisées
----
-
-# Jimmy PAULIN – Admin Infra & Sécurité (AIS)
 
 En reconversion vers l’**administration d’infrastructures sécurisées**, je conçois et implémente des labs complets mêlant réseaux Cisco, virtualisation, firewall pfSense, VPN, bastions et homelab sur matériel réel.  
 Ce portfolio regroupe une sélection de TP et projets réalisés en formation AIS (Simplon, Formatik) et en labs personnels.
 
-- Localisation : Sorbiers (42) – proche Saint-Étienne / Lyon  
+- Localisation : Sorbiers (42) – proche Saint-Étienne  
 - Formation : AIS – Administrateur d’Infrastructures Sécurisées  
 - Centres d’intérêt : réseaux Cisco, pfSense, VPN, bastions, virtualisation (Proxmox), cyber, scripts Python  
 
@@ -16,6 +13,8 @@ Ce portfolio regroupe une sélection de TP et projets réalisés en formation AI
 ---
 
 ## 1. Gros projets réseau & sécurité (Cisco)
+
+![Topologie multi-sites Cisco](images/Topo_Res.png)
 
 ### Infrastructure réseau multi‑sites haute disponibilité (Cisco Packet Tracer)
 
@@ -28,6 +27,7 @@ Ce portfolio regroupe une sélection de TP et projets réalisés en formation AI
 
 ## 2. Virtualisation & pfSense
 
+![pfSense en lab virtualisé](images/connexion_interface_web_pfsense.png)
 
 | Projet | Ce que j’ai fait | Lien |
 |--------|-------------------|------|
@@ -37,6 +37,8 @@ Ce portfolio regroupe une sélection de TP et projets réalisés en formation AI
 ---
 
 ## 3. Bastions d’administration & accès sécurisé
+
+![Bastion Teleport / Guacamole](images/acces_interface_web_Teleport_depuis_Client.png)
 
 
 | Projet | Ce que j’ai fait | Lien |
@@ -48,6 +50,7 @@ Ce portfolio regroupe une sélection de TP et projets réalisés en formation AI
 
 ## 4. Lab réel sur matériel Cisco
 
+![Lab réel routeur Cisco en console](images/Routeur_RSA232.jpg)
 
 | Projet | Ce que j’ai fait | Lien |
 |--------|-------------------|------|
@@ -71,8 +74,10 @@ Ces projets viendront compléter les labs déjà réalisés en virtualisé (Prox
 
 ## 6. À venir
 
-- Ajout de **scripts Python d’automatisation** (tri/renommage de fichiers, maintenance système, envoi d’e‑mails, etc.).  
-- Intégration de **labs cybersécurité (TryHackMe / vulnérabilités Windows/AD)** documentés (contexte, exploitation, mitigation).  
+- Ajout de **scripts Python d’automatisation** (tri/renommage de fichiers, maintenance système, petits outils pour l’admin réseau).  
+- Intégration de **labs cybersécurité et d’infra** (vulnérabilités Windows/AD, projet GLPI / AD DS / Zabbix / PfSense) documentés avec contexte, étapes et pistes de mitigation.  
+- Mise en avant de **labs de cryptographie appliquée** : chiffrement symétrique de fichiers avec OpenSSL (AES‑256‑CBC + PBKDF2) sur Kali, et scripts Python de chiffrement/déchiffrement de fichiers en AES‑GCM avec dérivation de clé via scrypt et gestion correcte du salt, nonce et tag d’intégrité.  
+
 
 Ce portfolio vise à montrer ma capacité à :
 - concevoir une architecture réseau/sécurité cohérente,  
