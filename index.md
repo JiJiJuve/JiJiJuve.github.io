@@ -1,5 +1,5 @@
 ---
-title: Portfolio Jimmy PAULIN - Administrateur d’Infrastructures Sécurisées
+Portfolio Jimmy PAULIN - Administrateur d’Infrastructures Sécurisées
 ---
 
 # Jimmy PAULIN – Admin Infra & Sécurité (AIS)
