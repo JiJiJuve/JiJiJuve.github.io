@@ -8,7 +8,7 @@ Ce portfolio regroupe une sélection de TP et projets réalisés en formation AI
 - Formation : AIS – Administrateur d’Infrastructures Sécurisées  
 - Centres d’intérêt : réseaux Cisco, pfSense, VPN, bastions, virtualisation (Proxmox), cyber, scripts Python  
 
-[GitHub](https://github.com/JiJiJuve) · [LinkedIn](www.linkedin.com/in/jimmy-paulin) · Contact : jimmy.paulin@outlook.fr
+[GitHub](https://github.com/JiJiJuve) · [LinkedIn](https://www.linkedin.com/in/jimmy-paulin) · Contact : [jimmy.paulin@outlook.fr](mailto:jimmy.paulin@outlook.fr)
 
 ---
 
@@ -18,10 +18,9 @@ Ce portfolio regroupe une sélection de TP et projets réalisés en formation AI
 
 ### Infrastructure réseau multi‑sites haute disponibilité (Cisco Packet Tracer)
 
-
-| Projet | Ce que j’ai fait | Lien |
-|--------|-------------------|------|
-| Infrastructure réseau d’entreprise haute dispo & sécurisée | Conception d’une infra complète siège + succursale + site Home : VLAN/VTP/trunks/EtherChannel/STP, routage inter‑VLAN sur switch L3, HSRP, DHCP central avec ip helper‑address, téléphonie IP (CME + TFTP), OSPF interne, NAT/PAT, serveur web publié, VPN IPsec site‑à‑site (Phase 1/2 + NONAT), VLAN 50 de gestion + SSH, Wi‑Fi succursale, démonstrations ICMP/HTTP/VoIP. | [TP détaillé](https://github.com/JiJiJuve/TP-Perso/tree/master/TP-Perso/TP-Infra-Haute-Dispo) |
+Dans ce lab, je conçois une infrastructure complète avec un siège, une succursale et un site « Home ».  
+J’y mets en place : VLAN, VTP, trunks, EtherChannel, STP, routage inter‑VLAN sur switch L3, HSRP, DHCP centralisé avec ip helper‑address, téléphonie IP (CME + TFTP), OSPF interne, NAT/PAT, serveur web publié, VPN IPsec site‑à‑site (Phase 1/2 + NONAT), VLAN de gestion et accès SSH, ainsi qu’un Wi‑Fi sur la succursale.  
+Le TP est entièrement documenté et versionné ici : [TP détaillé](https://github.com/JiJiJuve/TP-Perso/tree/master/TP-Perso/TP-Infra-Haute-Dispo).
 
 ---
 
@@ -29,10 +28,17 @@ Ce portfolio regroupe une sélection de TP et projets réalisés en formation AI
 
 ![pfSense en lab virtualisé](images/connexion_interface_web_pfsense.png)
 
-| Projet | Ce que j’ai fait | Lien |
-|--------|-------------------|------|
-| Installation Proxmox VE + pfSense en lab virtualisé | Déploiement de Proxmox dans VirtualBox, vérification SHA256 de l’ISO, configuration réseau (bridge vmbr1), création d’une VM pfSense, configuration WAN/LAN, DHCP, accès à l’interface web depuis une VM Debian cliente, préparation d’un environnement pour futurs labs réseau/sécurité. | [TP détaillé](https://github.com/JiJiJuve/TP-Perso/tree/master/TP-Perso/Proxmox%2BPfsense) |
-| VPN Client-to-Site avec pfSense & OpenVPN | Mise en place d’un pare‑feu pfSense, création d’un serveur OpenVPN SSL/TLS (CA, certificats serveur/client), règles firewall dédiées (DNS/HTTP/HTTPS/ICMP/OpenVPN), export des profils clients, installation du client OpenVPN sur une VM externe, tests d’accès sécurisé au LAN depuis l’extérieur (télétravail). | [TP détaillé](https://github.com/JiJiJuve/TP-Perso/tree/master/TP-Perso/Pfsense%2BOpenVPN) |
+### Installation Proxmox VE + pfSense en lab virtualisé
+
+Dans ce projet, je déploie Proxmox dans VirtualBox, avec vérification de l’empreinte SHA256 de l’ISO pour garantir l’intégrité.  
+Je configure le réseau (bridge vmbr1), crée une VM pfSense, paramètre les interfaces WAN/LAN, le DHCP, et j’accède à l’interface web depuis une VM Debian cliente.  
+Ce lab pose les bases d’un environnement pour futurs labs réseau/sécurité : [TP détaillé](https://github.com/JiJiJuve/TP-Perso/tree/master/TP-Perso/Proxmox%2BPfsense).
+
+### VPN Client-to-Site avec pfSense & OpenVPN
+
+Je mets en place un pare‑feu pfSense jouant le rôle de serveur VPN pour du télétravail sécurisé.  
+Je crée un serveur OpenVPN SSL/TLS (CA, certificats serveur/client), ajoute les règles firewall nécessaires (DNS, HTTP/HTTPS, ICMP, OpenVPN), exporte et installe les profils sur une VM externe, puis je teste l’accès au LAN depuis l’extérieur.  
+Les étapes sont détaillées ici : [TP détaillé](https://github.com/JiJiJuve/TP-Perso/tree/master/TP-Perso/Pfsense%2BOpenVPN).
 
 ---
 
@@ -40,11 +46,17 @@ Ce portfolio regroupe une sélection de TP et projets réalisés en formation AI
 
 ![Bastion Teleport / Guacamole](images/acces_interface_web_Teleport_depuis_Client.png)
 
+### Bastion d’administration Zero Trust avec Teleport
 
-| Projet | Ce que j’ai fait | Lien |
-|--------|-------------------|------|
-| Bastion d’administration Zero Trust avec Teleport | Étude comparative Teleport vs Apache Guacamole (sécurité, audit, types d’accès, déploiement), déploiement d’un bastion Teleport sur Debian, modèle Zero Trust avec certificats éphémères et MFA, gestion de ressources (serveurs) dans le bastion, connexions SSH depuis une VM cliente, traçabilité avancée des sessions (audit, relecture). | [TP Teleport](https://github.com/JiJiJuve/Simplon_Formation_AIS/blob/main/Bastion.md) |
-| Bastion d’administration web avec Apache Guacamole | Déploiement d’un bastion Guacamole sur Debian (stack Tomcat + SQL), configuration d’utilisateurs et de connexions RDP/SSH, publication d’une VM Windows Server 2022 comme ressource administrable, accès RDP via navigateur depuis une VM cliente, tests de connexion et d’administration distante via le bastion. | [TP Guacamole](https://github.com/JiJiJuve/Simplon_Formation_AIS/blob/main/Guacamole.md) |
+Je réalise une étude comparative entre Teleport et Apache Guacamole (sécurité, audit, types d’accès, déploiement), puis je déploie un bastion Teleport sur Debian.  
+Je mets en place un modèle Zero Trust avec certificats éphémères et MFA, j’enrôle des serveurs comme ressources dans le bastion et j’effectue des connexions SSH depuis une VM cliente, avec traçabilité avancée des sessions.  
+Le compte-rendu du lab est disponible ici : [TP Teleport](https://github.com/JiJiJuve/Simplon_Formation_AIS/blob/main/Bastion.md).
+
+### Bastion d’administration web avec Apache Guacamole
+
+Dans ce lab, je déploie Apache Guacamole sur Debian (stack Tomcat + base SQL) pour offrir un accès RDP/SSH via un simple navigateur web.  
+Je configure les utilisateurs et les connexions, je publie une VM Windows Server 2022 comme ressource administrable et je teste l’administration distante via le bastion depuis une VM cliente.  
+Le TP complet est disponible ici : [TP Guacamole](https://github.com/JiJiJuve/Simplon_Formation_AIS/blob/main/Guacamole.md).
 
 ---
 
@@ -52,32 +64,37 @@ Ce portfolio regroupe une sélection de TP et projets réalisés en formation AI
 
 ![Lab réel routeur Cisco en console](images/Routeur_RSA232.jpg)
 
-| Projet | Ce que j’ai fait | Lien |
-|--------|-------------------|------|
-| Mise à jour IOS sur switch Cisco C2960X-24PS-L | Connexion console avec PuTTY, installation et configuration d’un serveur TFTP, téléchargement de la dernière image IOS, configuration d’une IP de management, tests de connectivité (ping PC / switch / serveur TFTP), transfert de la nouvelle image, configuration du boot, vérification de la version active, suppression de l’ancienne image et sauvegarde de la configuration. | Post LinkedIn ([mise à jour du switch](https://www.linkedin.com/posts/jimmy-paulin_cisco-switching-raezseau-activity-7348729828654698498-KFgT?utm_source=share&utm_medium=member_desktop&rcm=ACoAABJRN38BwgfdQzmeNArcca1JDOTIu-fgpXU)) |
-| Récupération d’accès et config de base d’un routeur Cisco C892FSP-K9 | Passage en mode ROMMON pour récupération de mot de passe (confreg 0x2142 / 0x2102), boot sans config, récupération de la startup-config, modification des mots de passe, sauvegarde. Mise en place de la configuration de base : hostname, mots de passe console/VTY/enable secret, chiffrement des mots de passe, vérifications (show version, show interfaces, etc.). | Posts LinkedIn ([ROMMON + config de base + lab réel routeur](https://www.linkedin.com/posts/jimmy-paulin_cisco-networkengineer-itlab-activity-7345837899201835008-Ttxm?utm_source=share&utm_medium=member_desktop&rcm=ACoAABJRN38BwgfdQzmeNArcca1JDOTIu-fgpXU)) |
+### Mise à jour IOS sur switch Cisco C2960X-24PS-L
 
+Je récupère et mets à jour l’IOS d’un switch Cisco C2960X-24PS-L via un serveur TFTP.  
+Je me connecte en console (PuTTY), installe et configure le serveur TFTP, configure une IP de management, teste la connectivité (ping PC / switch / serveur TFTP), transfère la nouvelle image, configure le boot, vérifie la version active, supprime l’ancienne image et sauvegarde la configuration.  
+Une description détaillée est disponible dans ce post : [mise à jour du switch](https://www.linkedin.com/posts/jimmy-paulin_cisco-switching-raezseau-activity-7348729828654698498-KFgT).
+
+### Récupération d’accès et config de base d’un routeur Cisco C892FSP-K9
+
+Sur un routeur Cisco C892FSP-K9, je passe en mode ROMMON pour récupérer l’accès administrateur (manipulation du registre de configuration 0x2142 / 0x2102).  
+Je boote sans la configuration, récupère la startup-config, modifie les mots de passe, puis je mets en place une configuration de base : hostname, mots de passe console/VTY/enable secret, chiffrement des mots de passe et vérifications (show version, show interfaces, etc.).  
+Je documente ce travail dans plusieurs posts : [ROMMON + config de base + lab réel routeur](https://www.linkedin.com/posts/jimmy-paulin_cisco-networkengineer-itlab-activity-7345837899201835008-Ttxm).
 
 ---
 
 ## 5. Réseau maison & projets en cours
 
-Je construis progressivement un **réseau domestique avancé** dans ma nouvelle maison, en m’appuyant sur du matériel réel et des solutions open source :
+Je construis progressivement un **réseau domestique avancé** dans ma nouvelle maison, en m’appuyant sur du matériel réel et des solutions open source.
 
-- Baie de brassage en cours de déploiement avec routeur et switch Cisco, Wi‑Fi, segmentation prévue (VLAN utilisateurs, IoT/domotique, invités, management) et règles de sécurité (ACL).  
-- Projet de **firewall dédié pfSense** : récupération de 3 vieux PC pour en faire une seule machine optimisée (mini‑serveur) qui prendra à terme le relais de la box FAI pour le NAT, le firewall et les VPN.  
-- Mise en place prévue d’un **serveur Proxmox** pour héberger les VM (services internes, lab cyber), un futur NAS et d’autres briques d’infrastructure (surveillance, supervision, etc.).  
+Je prévois une baie de brassage avec routeur et switch Cisco, Wi‑Fi et segmentation par VLAN (utilisateurs, IoT/domotique, invités, management), complétée par des règles de sécurité (ACL).  
+Je travaille aussi sur un **firewall dédié pfSense** : récupération de plusieurs vieux PC pour en faire une machine optimisée (mini‑serveur) qui prendra à terme le relais de la box FAI pour le NAT, le firewall et les VPN.  
+Un **serveur Proxmox** hébergera les VM (services internes, lab cyber), un futur NAS et d’autres briques d’infrastructure (surveillance, supervision, etc.).  
 
-Ces projets viendront compléter les labs déjà réalisés en virtualisé (Proxmox + pfSense, VPN OpenVPN) par une mise en pratique sur matériel réel, dans un environnement proche d’une petite entreprise.
+Ces projets viendront prolonger les labs déjà réalisés en virtualisé (Proxmox + pfSense, VPN OpenVPN) par une mise en pratique sur matériel réel, dans un environnement proche d’une petite entreprise.
 
 ---
 
 ## 6. À venir
 
 - Ajout de **scripts Python d’automatisation** (tri/renommage de fichiers, maintenance système, petits outils pour l’admin réseau).  
-- Intégration de **labs cybersécurité et d’infra** (vulnérabilités Windows/AD, projet GLPI / AD DS / Zabbix / PfSense) documentés avec contexte, étapes et pistes de mitigation.  
+- Intégration de **labs cybersécurité et d’infra** (vulnérabilités Windows/AD, projet GLPI / AD DS / Zabbix / pfSense) documentés avec contexte, étapes et pistes de mitigation.  
 - Mise en avant de **labs de cryptographie appliquée** : chiffrement symétrique de fichiers avec OpenSSL (AES‑256‑CBC + PBKDF2) sur Kali, et scripts Python de chiffrement/déchiffrement de fichiers en AES‑GCM avec dérivation de clé via scrypt et gestion correcte du salt, nonce et tag d’intégrité.  
-
 
 Ce portfolio vise à montrer ma capacité à :
 - concevoir une architecture réseau/sécurité cohérente,  
