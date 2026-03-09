@@ -94,17 +94,24 @@ Ces projets viendront prolonger les labs déjà réalisés en virtualisé (Proxm
 
 ### Annuaire Active Directory & services de domaine (AD DS)
 
+![Console AD DS](images/tableau_bord.png)
+
 Mise en place d’un domaine Active Directory pour centraliser l’authentification et la gestion des comptes utilisateurs/ordinateurs.  
 Configuration du contrôleur de domaine, des unités d’organisation (OU), des stratégies de groupe (GPO) de base et des services associés (DNS intégré à AD, gestion des groupes et droits).  
 Le TP complet est disponible ici : [TP AD DS Windows Server 2025](https://github.com/JiJiJuve/TP-Perso/tree/master/TP-Perso/AD-DS-Windows-Server-2025).
 
 ### Gestion de parc et support avec GLPI
 
+![Tableau de bord GLPI](images/tableau_bord_glpi.png)
+
 Déploiement de GLPI sur Debian (serveur web + base de données) pour gérer le parc informatique et les demandes des utilisateurs.  
 Mise en place de la gestion des tickets d’incident, de l’inventaire du matériel, des catégories et des profils pour simuler un service support dans une petite structure.  
 Le TP complet est disponible ici : [TP GLPI](https://github.com/JiJiJuve/TP-Perso/tree/master/TP-Perso/GLPI).
 
 ### Supervision avec Zabbix 7 sur Debian 13
+
+![Dashboard Zabbix](images/tableau_bord_zabbix.png)
+
 
 Installation de Zabbix 7 sur Debian 13 avec MariaDB, Apache et interface web pour surveiller serveurs et services.  
 Ajout d’agents de supervision sur les machines, création de premiers hôtes supervisés, utilisation de templates et de règles d’alerte pour suivre la disponibilité et les ressources.  
