@@ -1,7 +1,7 @@
 # Portfolio Jimmy PAULIN - Administrateur d’Infrastructures Sécurisées
 
 En reconversion vers l’**administration d’infrastructures sécurisées**, je conçois et implémente des labs complets mêlant réseaux Cisco, virtualisation, firewall pfSense, VPN, bastions, cryptographie et homelab sur matériel réel.  
-Ce portfolio regroupe une sélection de TP et projets réalisés en formation AIS (Simplon, Formatik) et en labs personnels.
+Ce portfolio regroupe une sélection de TP et projets réalisés en formation AIS (Simplon) et en labs personnels.
 
 - Localisation : Sorbiers (42) – proche Saint-Étienne  
 - Formation : AIS – Administrateur d’Infrastructures Sécurisées  
