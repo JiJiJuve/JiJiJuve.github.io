@@ -96,19 +96,20 @@ Ces projets viendront prolonger les labs déjà réalisés en virtualisé (Proxm
 
 Mise en place d’un domaine Active Directory pour centraliser l’authentification et la gestion des comptes utilisateurs/ordinateurs.  
 Configuration du contrôleur de domaine, des unités d’organisation (OU), des stratégies de groupe (GPO) de base et des services associés (DNS intégré à AD, gestion des groupes et droits).  
-TP en cours de rédaction et bientôt disponible dans le repo : section dédiée au domaine **AD DS**.
+Le TP complet est disponible ici : [TP AD DS Windows Server 2025](https://github.com/JiJiJuve/TP-Perso/tree/master/TP-Perso/AD-DS-Windows-Server-2025).
 
 ### Gestion de parc et support avec GLPI
 
 Déploiement de GLPI sur Debian (serveur web + base de données) pour gérer le parc informatique et les demandes des utilisateurs.  
 Mise en place de la gestion des tickets d’incident, de l’inventaire du matériel, des catégories et des profils pour simuler un service support dans une petite structure.  
-La documentation complète sera intégrée dans le TP combiné d’infrastructure : **GLPI + AD DS + Zabbix + pfSense**.
+Le TP complet est disponible ici : [TP GLPI](https://github.com/JiJiJuve/TP-Perso/tree/master/TP-Perso/GLPI).
 
 ### Supervision avec Zabbix 7 sur Debian 13
 
 Installation de Zabbix 7 sur Debian 13 avec MariaDB, Apache et interface web pour surveiller serveurs et services.  
 Ajout d’agents de supervision sur les machines, création de premiers hôtes supervisés, utilisation de templates et de règles d’alerte pour suivre la disponibilité et les ressources.  
-La fiche détaillée d’installation et de configuration Zabbix 7 sera référencée ici dès qu’elle sera publiée dans le repo TP-Perso.
+La fiche détaillée est disponible ici : [TP Zabbix 7 sur Debian 13](https://github.com/JiJiJuve/TP-Perso/tree/master/TP-Perso/Zabbix).
+
 
 ---
 
