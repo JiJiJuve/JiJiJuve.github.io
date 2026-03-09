@@ -1,4 +1,3 @@
-```markdown
 # Portfolio Jimmy PAULIN - Administrateur d’Infrastructures Sécurisées
 
 En reconversion vers l’**administration d’infrastructures sécurisées**, je conçois et implémente des labs complets mêlant réseaux Cisco, virtualisation, firewall pfSense, VPN, bastions, cryptographie et homelab sur matériel réel.  
@@ -154,4 +153,4 @@ Ce portfolio montre la capacité à :
 - concevoir des architectures réseau/sécurité cohérentes,  
 - mettre en œuvre des solutions concrètes (Cisco, pfSense, Proxmox, bastions, crypto),  
 - documenter clairement les labs et faire le lien entre formation AIS, labs personnels et homelab sur matériel réel.
-```
+
