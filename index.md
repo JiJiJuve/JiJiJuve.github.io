@@ -19,7 +19,7 @@ Ce portfolio regroupe une sélection de TP et projets réalisés en formation AI
 ### Infrastructure réseau multi‑sites haute disponibilité (Cisco Packet Tracer)
 
 Conception d’une infrastructure complète avec un siège, une succursale et un site « Home ».  
-Mise en place de VLAN, VTP, trunks, EtherChannel, STP, routage inter‑VLAN sur switch L3, HSRP, DHCP centralisé avec ip helper‑address, téléphonie IP (CME + TFTP), OSPF interne, NAT/PAT, serveur web publié, VPN IPsec site‑à‑site (IKE Phase 1 : canal sécurisé, négociation et IKE Phase 2 : création des SA pour le trafic utilisateur), VLAN de gestion et accès SSH, ainsi qu’un Wi‑Fi sur la succursale.  
+Mise en place de VLAN, VTP, trunks, EtherChannel, STP, routage inter‑VLAN sur switch L3, HSRP, DHCP centralisé avec ip helper‑address, téléphonie IP (CME + TFTP), OSPF interne, NAT/PAT, serveur web publié, VPN IPsec site‑à‑site (IKE Phase 1 : canal sécurisé et négociation, IKE Phase 2 : création des SA pour le trafic utilisateur), VLAN de gestion et accès SSH, ainsi qu’un Wi‑Fi sur la succursale.  
 TP entièrement documenté et versionné ici : [TP détaillé](https://github.com/JiJiJuve/TP-Perso/tree/master/TP-Perso/TP-Infra-Haute-Dispo).
 
 ---
