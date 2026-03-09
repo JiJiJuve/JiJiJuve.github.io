@@ -90,13 +90,37 @@ Ces projets viendront prolonger les labs déjà réalisés en virtualisé (Proxm
 
 ---
 
-## 6. À venir
+## 6. Services d’infrastructure (annuaire, support, supervision)
+
+### Annuaire Active Directory & services de domaine (AD DS)
+
+Mise en place d’un domaine Active Directory pour centraliser l’authentification et la gestion des comptes utilisateurs/ordinateurs.  
+Configuration du contrôleur de domaine, des unités d’organisation (OU), des stratégies de groupe (GPO) de base et des services associés (DNS intégré à AD, gestion des groupes et droits).  
+TP en cours de rédaction et bientôt disponible dans le repo : section dédiée au domaine **AD DS**.
+
+### Gestion de parc et support avec GLPI
+
+Déploiement de GLPI sur Debian (serveur web + base de données) pour gérer le parc informatique et les demandes des utilisateurs.  
+Mise en place de la gestion des tickets d’incident, de l’inventaire du matériel, des catégories et des profils pour simuler un service support dans une petite structure.  
+La documentation complète sera intégrée dans le TP combiné d’infrastructure : **GLPI + AD DS + Zabbix + pfSense**.
+
+### Supervision avec Zabbix 7 sur Debian 13
+
+Installation de Zabbix 7 sur Debian 13 avec MariaDB, Apache et interface web pour surveiller serveurs et services.  
+Ajout d’agents de supervision sur les machines, création de premiers hôtes supervisés, utilisation de templates et de règles d’alerte pour suivre la disponibilité et les ressources.  
+La fiche détaillée d’installation et de configuration Zabbix 7 sera référencée ici dès qu’elle sera publiée dans le repo TP-Perso.
+
+---
+
+## 7. À venir
 
 - Ajout de **scripts Python d’automatisation** (tri/renommage de fichiers, maintenance système, petits outils pour l’admin réseau).  
-- Intégration de **labs cybersécurité et d’infra** (vulnérabilités Windows/AD, projet GLPI / AD DS / Zabbix / pfSense) documentés avec contexte, étapes et pistes de mitigation.  
-- Mise en avant de **labs de cryptographie appliquée** : chiffrement symétrique de fichiers avec OpenSSL (AES‑256‑CBC + PBKDF2) sur Kali, et scripts Python de chiffrement/déchiffrement de fichiers en AES‑GCM avec dérivation de clé via scrypt et gestion correcte du salt, nonce et tag d’intégrité.  
+- Intégration d’un **gros lab d’infrastructure complet** combinant **AD DS, GLPI, Zabbix et pfSense** dans un même scénario (domaine Windows, support utilisateurs avec gestion des tickets, supervision centralisée, accès distant sécurisé), avec schémas, procédures et bonnes pratiques.  
+- Mise en avant de **labs de cybersécurité et de cryptographie appliquée** : chiffrement symétrique de fichiers avec OpenSSL (AES‑256‑CBC + PBKDF2) sur Kali, et scripts Python de chiffrement/déchiffrement de fichiers en AES‑GCM avec dérivation de clé via scrypt et gestion correcte du salt, nonce et tag d’intégrité.  
 
 Ce portfolio vise à montrer ma capacité à :
 - concevoir une architecture réseau/sécurité cohérente,  
 - documenter clairement mes labs,  
 - et faire le lien entre formations AIS, labs personnels et homelab sur matériel réel.
+
+
