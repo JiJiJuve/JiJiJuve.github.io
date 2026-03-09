@@ -120,15 +120,19 @@ La fiche détaillée est disponible ici : [TP Zabbix 7 sur Debian 13](https://gi
 
 ---
 
-## 7. À venir
+## 7. Scripts Python et labs à venir
 
-- Ajout de **scripts Python d’automatisation** (tri/renommage de fichiers, maintenance système, petits outils pour l’admin réseau).  
-- Intégration d’un **gros lab d’infrastructure complet** combinant **AD DS, GLPI, Zabbix et pfSense** dans un même scénario (domaine Windows, support utilisateurs avec gestion des tickets, supervision centralisée, accès distant sécurisé), avec schémas, procédures et bonnes pratiques.  
-- Mise en avant de **labs de cybersécurité et de cryptographie appliquée** : chiffrement symétrique de fichiers avec OpenSSL (AES‑256‑CBC + PBKDF2) sur Kali, et scripts Python de chiffrement/déchiffrement de fichiers en AES‑GCM avec dérivation de clé via scrypt et gestion correcte du salt, nonce et tag d’intégrité.  
+- Ajout de **scripts Python d’automatisation** (tri/renommage de fichiers, maintenance système, petits outils pour l’admin réseau), avec une documentation claire des usages (argparse, dry-run, nettoyage, etc.).  
+  → [Voir les scripts Python sur GitHub](https://github.com/JiJiJuve/TP-Perso/tree/master/TP-Perso/Python-Scripts)
+
+- Intégration d’un **gros lab d’infrastructure complet** combinant **AD DS, GLPI, Zabbix et pfSense** dans un même scénario (domaine Windows, support utilisateurs avec gestion des tickets, supervision centralisée, accès distant sécurisé), avec schémas, procédures et bonnes pratiques.
+
+- Mise en avant de **labs de cybersécurité et de cryptographie appliquée** : chiffrement symétrique de fichiers avec OpenSSL (AES‑256‑CBC + PBKDF2) sur Kali, et scripts Python de chiffrement/déchiffrement de fichiers en AES‑GCM avec dérivation de clé via scrypt et gestion correcte du salt, nonce et tag d’intégrité.
 
 Ce portfolio vise à montrer ma capacité à :
 - concevoir une architecture réseau/sécurité cohérente,  
 - documenter clairement mes labs,  
 - et faire le lien entre formations AIS, labs personnels et homelab sur matériel réel.
+
 
 
